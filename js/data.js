@@ -40,3 +40,32 @@ const HOURS = ['7:00 AM','8:30 AM','10:00 AM','11:30 AM','2:00 PM','3:30 PM','5:
 const BLOCKED = {
   0: [0,3,6], 1: [1,4], 2: [0,2,5,7], 3: [3,6], 4: [1,4,7], 5: [0,2,4,6]
 };
+
+// ─── RECURSOS (videos y documentos gratuitos) ───
+// type: 'video' o 'doc'. url: link externo (YouTube, Drive, etc.) o archivo local.
+const resourcesData = [
+  {
+    type: 'video', tag: '9° – 11°',
+    title: 'Introducción a la trigonometría',
+    description: 'Del círculo unitario a las identidades básicas, explicado desde cero.',
+    url: 'https://www.youtube.com/'
+  },
+  {
+    type: 'video', tag: '6° – 8°',
+    title: 'Fracciones sin miedo',
+    description: 'Cómo pensar en fracciones de forma visual antes de operarlas.',
+    url: 'https://www.youtube.com/'
+  },
+  {
+    type: 'doc', tag: '10° – 11°',
+    title: 'Guía de precálculo',
+    description: 'Resumen con ejercicios resueltos de funciones y límites.',
+    url: '#'
+  },
+  {
+    type: 'doc', tag: 'General',
+    title: 'Cheat sheet de fórmulas',
+    description: 'Las fórmulas más usadas en secundaria, en una sola hoja.',
+    url: '#'
+  }
+];
